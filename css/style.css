@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --white: #fff;
+    --black: #000000;
+    --banner-bg:#232323;
+    --btn-clr: #ffae9d;
+    --card-1:#e57e76;
+    --card-2:#d9f2f5;
+    --card-3:#fdc7a0;
+    --card-4:#cff2a0;
+    --card-5:#fdee99;
+    --card-6:#fbf7b3;
+    --buttron-2:#600a39;
+
+}
+.slick-center .card{
+    transform: scale(1.09);
+    z-index: 100;
+}
+li{ list-style: none;}
+a{ text-decoration: none;}
+.img-width{ width: 100%;}
+.img-widthh{width: 100%;}
+.a{    font-size: 16px; color: var(--white);}
+ 
+/* header */
+.inheritt{ justify-content: inherit;}
+li.nav-item { padding-left: 10px;}
+.header-icons li a { font-size: 18px; padding-right: 15px; color: var(--white);}
+.header-icons li a{ color: var(--white);}
+.menu li a { font-size: 18px; font-family: 'Roboto Mono'; margin-left: 20px;}
+.menu li a{ color: var(--white);}
+.bg{ background: var(--banner-bg);}
+.top{ background: var(--banner-bg);}
+.carousel-inner img { width: 100%;  height: 100%;}
+/*--------------  Banner  ----------*/
+.banner{background-color: #242424;}
+.banner-content{    width: 100%; height: 100%;display: flex;align-items: center; margin-left: 25%;}
+.gift{    font-size: 2.8rem;font-family: revert; margin-top: -15px;}
+.order-btn { padding: 10px 27px 10px 27px; border-radius: 14px; text-align: center; font-size: 18px; font-family: system-ui; border: 2px solid var(--btn-clr);  color: var(--btn-clr);}
+.order-btn-m{    margin-top: 35px;}
+/*------------- PRODUCT  ---------------*/
+.prodcut-heading{    font-size: 30px; font-family: 'Roboto Mono'; font-weight: 900;}
+/* .product-wraper{border-radius: 8px; height: 150px; justify-content: center; align-items: center; outline: none; border: none;} */
+.card-1{background: var(--card-1);}
+.card-2{background: var(--card-2);}
+.card-3{background: var(--card-3);}
+.card-4{background: var(--card-4);}
+.card-5{background: var(--card-5);}
+.card-6{background: var(--card-6);}
+.card-border{border-radius: 2rem;}
+.product-wraper{ position: relative;}
+.prodcut-img{    position: absolute; top: 20px;}
+/*  */
+.card-img{    position: absolute; top: 14%; text-align: center;}
+.card-content { width: 16rem; position: relative;}
+    .card-pr{  padding-top: 150px;  border: none;  border-radius: 10px;}
+/*----------------  Fill Tin ------------*/
+.fill-tin{    background: #e9f8f9; padding-top: 6%; padding-bottom: 6%;}
+.fill-tin .tin-text a{ font-size: 25px; font-family: 'Roboto Mono', monospace; line-height: 45px; color: black;}
+.tin-btn{       background: black;padding: 7px 22px 7px 22px;text-align: center;font-size: 18px; border-radius: 13px; color: #fff;}
+.fill-tin .tin-btn a{  font-size: 16px;  color: #fff;}
+
+.wraper-text{  margin-left: -10px;  margin-top: 20%;}
+/*-------------- Innovative  -------*/
+
+.innovative{background: #6dc2e8;}
+.innovative-text{  margin-top: 87px; margin-left: 30p}
+.brand-img{ justify-content: center; display: flex; align-items: center; height: 100%;}
+/*-------  Media & Articles  --------*/
+.media-article-text{    font-size: 25px; margin: 0;font-family: system-ui;}
+.l-text{  font-weight: 300;}
+.r-text{  font-weight: 600;font-family: sans-serif;}
+
+/*-------------  Footer  -------------*/
+.page-footer{ background: #000000; color: whit }
+ul.menu_list-wraper { font-size: 14px; font-family: 'Roboto Mono'; font-weight: 400; color: #fff;}
+h6.card-footer-title { font-size: 16px; margin-left: 31px; color: #dab973;}
+.page-footer-bottom{background: #0c0c0c; border-top: 0.5px solid #403f3f;}
+.fonts { font-size: 25px; color: white;}
+/* GGHHJ */
+.qatar-left-img{ position: relative;}
+.qatar-text-btn{   position: absolute;  left: 14%; bottom: 8%;}
+.qatar-airways .qatar-text-btn a{     font-size: 12px; font-weight: 600; font-family: sans-serif; color: #600a39; padding: 12px; border: 1px solid #600a39; cursor: pointer;}
+    .image-size{    width: 70%; padding-top: 55px;}
+    
+#fname{  font-size: 22px;  background: transparent; border: none; font-family: 'Roboto Mono'; padding-bottom: 8px; border: none;  outline: none;}
+.email-signup{        border-bottom: 1.6px solid #eab020; position: relative;}
+.email-btn{    position: absolute; top: 49px; right: 9px;}
+.gtr{    font-size: 25px; color: #eab020;}
+
+/*--------------- Carousel  -------------*/
+.card-left-items {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: #e1005c;
+}
+.card-text-btm {
+    font-size: 17px;
+    font-family: sans-serif;
+    font-weight: 400;
+    margin-top: 30px;
+}
+.card-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding-top: 25px;
+}
+.card-shadow{    margin: 30px;
+    box-shadow: 1px 0px 7px 0px #adb5bd;
+    border: none;}
+.card-wraper{ width: 20rem;}
+/* .card-contents{  padding: 50px 0px 50px 0px;} */
+.left-circle { width: 150px; height: 150px; border-radius: 50%; background: #e1005c; text-align: center;}
+.left-circle p{ display: flex; align-items: center; justify-content: center; flex-direction: column; height: 100%;}
+span.p-circle { font-size: 20px; font-family: 'Roboto Mono'; font-weight: 500; color: #fff; }
+.pr-circle-text{ color: #fff; font-family: 'Roboto Mono'; font-size: 17px; padding-left: 10px; }
+/* .card-text-btm{ font-size: 18px; font-family: sans-serif; font-weight: 400; } */
+.mar-btm{ margin-top: -20px;}
+/* .card-shadow{ border: none; box-shadow: 1px 0px 0px 4px #fbfbfb;} */
+.cnmrs-sub-head{    font-size: 30px; font-family: fangsong;}
+.cnmrs-sub-head1{ font-size: 23px; font-family: math;  font-weight: 600;}
+.carousel-inner img { width: 100%; height: 100%;}
+
+
+
+/*-------------- Media Query ---------- */
+/* ----------- 1024 -----------*/
+@media screen and (max-width:1024px) {
+    span.p-circle {  font-size: 20px; font-family: 'Roboto Mono'; font-weight: 500; color: #fff; margin-top: 20px; }
+    h5.right-title { font-size: 18px; font-family: 'Roboto Mono'; font-weight: 600; }
+    .consumers .right-text p{ text-align: center; }
+    .left-circle {  width: 100px;  height: 100px; border-radius: 50%; background: #e1005c; text-align: center; }
+    .right-text{ text-align: center;}
+    .menu li a { font-size: 15px; font-family: 'Roboto Mono'; margin-left: -6px;}
+}
+
+/*--------------  768  --------- */
+@media screen and (max-width: 768px) {
+    ul.menu_list-wraper { font-size: 12px; font-family: 'Roboto Mono'; font-weight: 400;}
+    .image-width{ width: 100%;}
+    a.nav-link { font-size: 13px; font-family: fangsong;}
+    
+    .menu li a { font-size: 12px; padding: 0; margin: 0; font-family: fangsong;}
+    .header-icons li a {  font-size: 15px;  padding-right: 15px; color: #fff;}
+    li.nav-item { padding-left: 0px;}
+    /* ...........  Carousel -------*/
+    .card-text-btm {  font-size: 13px;  font-family: sans-serif;  font-weight: 400;  margin-top: -16px;}
+    .right-title{ font-size: 14px; font-family: 'Roboto Mono'; font-weight: 800; padding-left: 20px;}
+    span.p-circle {  font-size: 19px;  font-family: 'Roboto Mono';  font-weight: 500;  color: #fff;  margin-top: 13px; }
+    .pr-circle-text {  color: #fff;  font-family: 'Roboto Mono';  font-size: 11px;  margin-top: -25px;}
+    .left-circle { width: 100px; height: 100px; border-radius: 50%; background: #e1005c; text-align: cent }
+    span.right-sub-title { font-size: 9px;}
+    
+    .consumers .right-text p{padding-left: 20px;}
+
+    .right-text { text-align: center;}
+    h5.right-title { font-size: 14px; font-family: 'Roboto Mono'; font-weight: 600;}
+    span.right-text-by { font-size: 12px;}
+    .qatar-airways .qatar-text-btn a { font-size: 9px; font-weight: 600; font-family: sans-serif; color: #600a39; padding: 6px;  border: 1px solid #600a39; cursor: pointer;}
+    .image-size {  width: 75%;  padding-top: 36px;}
+    #fname {  font-size: 15px;  background: transparent;  border: none;  font-family: 'Roboto Mono';  padding-bottom: 8px;  border: none;  outline: none;}
+    .email-btn {  position: absolute;  top: 42px;  right: 9px;}
+    .gtr { color: #eab020;}
+   
+    
+}
+/*----------------  MAX-WIDTH: 576PX  -------------*/
+@media screen and (max-width:576px)
+{
+    /* banner */
+    .order-btn-m {margin-top: 12px;}
+    /* banner-end */
+    
+    .custom-direction{ flex-direction: column;}
+    .image-width{ width: 100%;}
+    .qatar-left-img{padding-bottom: 17px;}
+    .wraper-text{text-align: center; margin-left: 0px; margin-top: 0px;}
+    .page-footer-bottom p{font-size: 12px; margin: 0; padding-bottom: 13px;}
+    .wraper_footer-icons{ justify-content: center; padding-left: 0px;}
+    .card-mar{margin-bottom: 42px;}
+    .margin-top{ margin-top: -45px;}
+    .img-width{ width: 40%;}
+    .order-btn { padding: 7px 13px 7px 13px; border-radius: 14px; text-align: center; font-size: 8px; font-family: system-ui; border: 2px solid #ffae9d; color: #ffae9d;}
+    .gift { font-size: 17px; font-family: 'Roboto Mono';}
+    .banner-text p{    font-size: 12px; }
+    #text-margin{margin-top: 0;}
+    .pt{padding-top: 10px;}
+    .logo-width{width: 40%;}
+    .mr-right{margin-right: 15px;}
+    .header-icons{margin-left: 20px;}
+    /* innovative */
+    .innovative-text {  margin-top: 45px; text-align: center;}
+    .innovative-text h5{    font-size: 20px; line-height: 31px; font-family: 'Roboto Mono';}
+    .innovative-text p{    font-size: 15px; font-family: 'Roboto Mono';}
+    .margin-brand{margin-top: 10px;}
+    /* .card-contents{ flex-direction: column;} */
+    .card-text-btm {font-size: 13px; font-family: sans-seri; font-weight: 400; margin-top: -16px;  text-align: center;}
+    .card-shadow { border: none; box-shadow: 1px 0px 0px 8px #fbfbfb;}
+    .cnmrs-sub-head1 {  font-size: 20px;  font-family: fangsong; font-weight: 500;}
+    .cnmrs-sub-head { font-size: 22px;  font-family: fangsong;}
+    span.right-sub-title { font-size: 13px;}
+    .right-text {  text-align: center;  margin-top: 12px;}
+    span.right-text-by { font-size: 12px;}
+    .sm-icons{ display: flex; align-items: center; justify-content: space-around; flex-direction: row;}
+    li.nav-item {  padding-left: 0px;  padding-top: 20 }
+    .menu-items{  text-align: center;  margin-top: 0 }
+    .image-size { width: 100%;}
+    .qatar-text-btn { position: absolute; left: 20%; bottom: 12%;}
+    .qatar-airways .qatar-text-btn a { font-size: 12px;font-weight: 600; font-family: sans-serif; color: var(--buttron-2); padding: 9px; border: 1px solid var(--buttron-2); cursor: pointer;}
+    .email-signup { border-bottom: 1.6px solid #eab020; position: relative; margin-left: 33px; margin-bottom: 15p }
+    #fname { font-size: 15px; background: transparent; border: none; font-family: 'Roboto Mono'; padding-bottom: 8px; border: none; outline: non }
+    .menu li a { font-size: 16px; padding: 0; margin: 0; font-family: fangsong; padding-top: 13p }
+}   
